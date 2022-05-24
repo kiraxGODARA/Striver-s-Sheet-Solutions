@@ -51,7 +51,7 @@ int merge(int arr[], int temp[], int left, int mid,
         else {
             temp[k++] = arr[j++];
  
-            /* this is tricky -- */ """""""" IMPORTANT"
+            /* this is tricky --  """""""" IMPORTANT" */
             inv_count = inv_count + (mid - i);
         }
     }
